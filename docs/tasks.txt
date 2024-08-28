@@ -1,0 +1,47 @@
+####################################
+# Part1 - TO DO 14.1.8
+###################################
+1. create OSS14.pm lib - OK
+
+2. create isSimPico($SimName) - OK
+
+3. add isSimPico($SimName) to all scripts - OK
+
+4. createPicoCell - OK
+
+5. createPICOExternalNetwork - OK
+
+6. createPICOCellRelations - OK
+
+6.1 setup EUtranFrequency ID no
+
+7. writePICO2LTEcellassociations.pl (LTE 6 & 12 cells only) - OK
+
+8. PICO network
+   - PICO2PICO - OK
+   - PICO2LTE - OK
+   - LTE2PICO
+   - PICO2WRAN - OK
+   - PICO2CDMA2K - OK
+   - PICO2CDMA2KRTT
+
+9. createLTEtoPico
+
+10. CXP 903 0491-43-6 
+    CXP 903 0491-42-19
+    revision 19 27/3/14 - epatdal
+    created ~/bin/ERBSST/archive>
+    moved 3032,3035 and 3038 to archive
+    note these scripts need to be enabled and fixed for 5K PICO
+
+####################################
+# Part2 - TO DO 14.1.8
+###################################
+1. Update for LTE Irathom GSM support for LTE netsim patch PATCH14A
+   need to add (1279,1280,~customdata/irathom/archive 
+   plus LTE2GRAN,GRAN2LTE csv files)
+1.1 2133structsetEUtranGeranUtranRelations.pl Irathom GSM support
+
+2. MULTISIMS PICO support
+
+3. FT PICO support 

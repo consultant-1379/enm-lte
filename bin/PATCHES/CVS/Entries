@@ -1,0 +1,12 @@
+/createRule1WCCInconsistencies.sh/1.1/Wed Dec  9 20:33:18 2009//TO11-ST-11_1-ERBSB11-N
+/createRule2WCCInconsistencies.sh/1.1/Wed Dec  9 20:33:18 2009//TO11-ST-11_1-ERBSB11-N
+/fixRule1WCCInconsistencies.sh/1.1/Wed Dec  9 20:31:24 2009//TO11-ST-11_1-ERBSB11-N
+/fixRule2WCCInconsistencies.sh/1.1/Wed Dec  9 20:32:14 2009//TO11-ST-11_1-ERBSB11-N
+/setCdma2000Network.sh/1.1/Mon Feb  1 16:11:58 2010//TO11-ST-11_1-ERBSB11-N
+/setEUtranCellFDD-UserLabel.sh/1.1/Wed Dec  9 20:36:31 2009//TO11-ST-11_1-ERBSB11-N
+/setEUtranFreqRelation.sh/1.1/Wed Dec  9 20:38:18 2009//TO11-ST-11_1-ERBSB11-N
+/setEUtranFrequencyRelation.sh/1.1/Wed Dec  9 20:38:18 2009//TO11-ST-11_1-ERBSB11-N
+/setExternalENodeBFunction.sh/1.1/Wed Dec  9 20:35:19 2009//TO11-ST-11_1-ERBSB11-N
+/seteutranFrequencyRefForEENBF.sh/1.1/Wed May 26 17:35:49 2010//TO11-ST-11_1-ERBSB11-N
+/seteutranFrequencyRefForEFR.sh/1.1/Wed May 26 17:35:49 2010//TO11-ST-11_1-ERBSB11-N
+D

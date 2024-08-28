@@ -1,0 +1,42 @@
+######################################################
+# MUTISIMS status
+# epatdal
+# Note : update on PICO MULTISIMS support NETSUP-1569 
+# 2nd May 2014 
+######################################################
+
+1. For LTE sim MULTI build only use
+    build_lte_multisims.pl MULTISIMS.env
+    
+    execution output written to :
+    /var/tmp/tep/$SIMNAME/LTSimScripts/log/LTE-SIMS.log
+
+    sims written to :
+    /netsim/netsimdir/$SIMNAME 
+
+2. For PICO sim MULTI build do not use 
+    wipbuild_ltepico_multisims.pl
+
+3. To build PICO sims it must be done as follows :
+     Note : only supported in LTE14A.1
+     In the CONFIG.env set :
+     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     # SIMSTART or SIMEND set to 0
+     # indicates that no sims will be created
+     #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     SIMSTART=0
+     SIMEND=0
+    
+     and For PICO set to your choice
+      eg. 
+      #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      # PICOSIMSTART or PICOSIMEND set to 0
+      # indicates that no sims will be created
+      #~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+      PICOSIMSTART=36
+      PICOSIMEND=42
+      
+      then launch
+      ~/LTESimScripts/bin> ./createLTESimsST.sh CONFIG.env
+
+      Output : PICO sims will be build from LTE36 to LTE 42 

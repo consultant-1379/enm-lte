@@ -1,0 +1,13 @@
+
+CVS: ----------------------------------------------------------------------
+CVS: Enter Log.  Lines beginning with `CVS:' are removed automatically
+CVS: 
+CVS: Committing in .
+CVS: 
+CVS: Added Files:
+CVS: 	Aal2.mo atmport.mo equip.mo equipT.mo lm.mo localcell.mo 
+CVS: 	nbapcommon.mo nodebfunc.mo piutype.mo sector.mo setatmport.mo 
+CVS: 	slot2.mo subrack1.mo subrack2.mo subrack3.mo subrack4.mo 
+CVS: 	switchcore1.mo switchfab.mo swmgmt.mo tempsubrack2.mo trans.mo 
+CVS: 	transT.mo tudevice.mo 
+CVS: ----------------------------------------------------------------------
